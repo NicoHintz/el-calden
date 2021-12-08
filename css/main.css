@@ -105,14 +105,17 @@ h1{
   justify-content: space-around;
   
 }
+
 .texto-dos{
+  
   height: 100px;
   width: 200px;
   text-align: center;
-  animation-name: expandir;
-  animation-duration: 2s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
+  list-style: none;
+}
+
+.lista-historia{
+  list-style: none;
 }
 
 .mapa{
@@ -121,7 +124,7 @@ h1{
 
 /* Aplicando Grids al Index*/
 
-/.grid-container{
+.grid-container{
   background-color: rgba(196, 192, 186, 0.521);
   display: grid;
   grid-template-areas: 
