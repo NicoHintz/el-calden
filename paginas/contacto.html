@@ -37,26 +37,20 @@
     </header>
     <section class="form">
         <h2>Dejanos tu consulta debajo</h2>
-            <form>
-            <div>
-                <label for="nombre">Nombre :</label>
-                <input type="text" name="nombre" id="nombre">
-            </div>
-            <div>
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="apellido" id="apellido">
-            </div>
-            <div>
-                <label for="mail">E - Mail  :</label>
-                <input type="text" name="mail" id="mail">
-            </div>
-            <div>
-                <label for="mensaje">Mensaje:</label>
-                <textarea name="mensaje" id="" cols="15" rows="4"></textarea>
-            </div>
-                <br><input type="submit" name="Enviar">
-            <input type="reset" value="Borrar todo">
-            </form>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Nombre y Apellido</span>
+            <input type="text" class="form-control" placeholder="Nombre-Apellido" aria-label="Nombre-Apellido" aria-describedby="basic-addon1">
+          </div>
+          
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="e-mail" aria-label="e-mail" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">@example.com</span>
+          </div>
+          
+          <div class="input-group">
+            <span class="input-group-text">Mensaje</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
     </section>
     <section >
     <h3>Como llegar</h3>
