@@ -19,40 +19,38 @@
 <!-- Aca comienza el cuerpo de la pagina-->
 
 <body>
-    <div class="grid-container">
-        <header class="header">
-            <nav class="navbar navbar-light bg-rgba(196, 192, 186, 0.521)">
-                <div class="container">
-                  <a class="navbar-brand" href="index.html">
-                    <img src="imagenes/logo.png" alt="" width="110" height="110">
-                  </a>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="imagenes/logo.png" alt="" width="110" height="110">
+                    </a>
                 </div>
-              </nav>
-            <nav class="navegador">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="paginas/servicios.html">Servicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="paginas/galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="paginas/historia.html">Historia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="paginas/contacto.html">Contacto</a>
-                      </li>
-                  </ul>
-            </nav>
-        </header>
-        <!--Termina el encabezado-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link" href="#">Servicios</a>
+                        <a class="nav-link" href="#">Galeria</a>
+                        <a class="nav-link" href="#">Historia</a>
+                        <a class="nav-link" href="#">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Termina el encabezado-->
 
-        <!--Empieza el Body-->
-
-    
+    <!--Empieza el Main-->
+    <Section>
+        <div>
+            <h1>El Calden Casa de Campo</h1>
+        </div>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -96,31 +94,61 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
-        <!--Termina Carousel-->
-
-        <!--Pie de pagina-->
-        <footer class="border-solid">
-            <div class="info-footer">
-                <p>Informacion de contacto</p>
-                <p>Tel: 098 294 000</p>
-                <p>Ruta 2 km 226.500 Ciudad de Mercedes, Uruguay</p>
-            </div>
-            <div class="espacio-redes">
-                <div class="redes">
-                    <a href="https://www.instagram.com/elcaldenuy/">
-                        <img width="60" src="imagenes/ig.png" alt="">
-                    </a>
+    </Section>
+    <!--Seccion Tarjetas-->
+    <section>
+        <div class="container">
+            <div class="column">
+                <div class="row">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagenes/asado1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Te brindamos todo lo que necesites para comer el tipoco asado Uruguayo.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="redes">
-                    <a href="https://www.facebook.com/people/El-Caldén/100054484629009/">
-                        <img width="60" src="imagenes/fb.png" alt="">
-                    </a>
-                </div>
-                <p class="redes">Sitio desarrollado por<a href=""> Nicolas Hintz</a></p>
-            </div>
 
-        </footer>
+                <div class="row">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagenes/logo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">El Calden casa de campo es unos de los lugares mas bucsados por
+                                turistas
+                                para descansar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--Termina Carousel-->
+
+    <!--Pie de pagina-->
+    <footer class="border-solid">
+        <div class="info-footer">
+            <p>Informacion de contacto</p>
+            <p>Tel: 098 294 000</p>
+            <p>Ruta 2 km 226.500 Ciudad de Mercedes, Uruguay</p>
+        </div>
+        <div class="espacio-redes">
+            <div class="redes">
+                <a href="https://www.instagram.com/elcaldenuy/">
+                    <img width="60" src="imagenes/ig.png" alt="">
+                </a>
+            </div>
+            <div class="redes">
+                <a href="https://www.facebook.com/people/El-Caldén/100054484629009/">
+                    <img width="60" src="imagenes/fb.png" alt="">
+                </a>
+            </div>
+            <p class="redes">Sitio desarrollado por<a href=""> Nicolas Hintz</a></p>
+        </div>
+
+    </footer>
     </div>
     <!--Link a JavaSCript-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
