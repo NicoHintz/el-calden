@@ -1,83 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link a Bootstrap antes del Titulo-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>El Calden-contacto</title>
     <link rel="shortcut icon" href="../imagenes/icon.jpg">
     <link rel="stylesheet" href="../css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="grid-container">
-    <header class="header">
-    <a href="../index.html">
-        <img width="200" src="../imagenes/logo.png" alt="logo"></a>
-        <h1 class="font">El Calden</h1>
-    <nav>
-        <ul class="nav">
-            <li>  
-            <a href="../index.html">Inicio</a>
-            </li>
-            <li>
-            <a href="servicios.html">Servicios</a>
-            </li>
-            <li>
-            <a href="galeria.html">Galeria</a>
-            </li>
-            <li>
-            <a href="historia.html">Historia</a>
-            </li>
-            <li>
-            <a href="contacto.html">Contacto</a>
-            </li>
-        </ul>
-    </nav>
-    </header>
-    <section class="form">
-        <h2>Dejanos tu consulta debajo</h2>
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Nombre y Apellido</span>
-            <input type="text" class="form-control" placeholder="Nombre-Apellido" aria-label="Nombre-Apellido" aria-describedby="basic-addon1">
-          </div>
-          
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="e-mail" aria-label="e-mail" aria-describedby="basic-addon2">
-            <span class="input-group-text" id="basic-addon2">@example.com</span>
-          </div>
-          
-          <div class="input-group">
-            <span class="input-group-text">Mensaje</span>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
-          </div>
-    </section>
-    <section >
-    <h3>Como llegar</h3>
-    <iframe class="mapa"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.9716215341073!2d-57.68690188479662!3d-33.60604078072968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a4f7351fa85219%3A0xc707e811cdf0d33a!2sEl%20Cald%C3%A9n!5e0!3m2!1ses-419!2suy!4v1636152854764!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>  
-    </section>    
-    
-    <footer class="border-solid">
-        <div class="info-footer">
-            <p>Informacion de contacto</p>
-            <p>Tel: 098 294 000</p>
-            <p>Ruta 2 km 226.500 Ciudad de Mercedes, Uruguay</p>
-        </div>    
-        <div class="espacio-redes">
-            <div class="redes">
-                <a href="https://www.instagram.com/elcaldenuy/">
-                    <img width="60" src="../imagenes/ig.png" alt="">
-                </a>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <div>
+                        <a class="navbar-brand" href="../index.html">
+                            <img src="../imagenes/logo.png" alt="" width="130" height="130">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                            <a class="nav-link" href="historia.html">Historia</a>
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="form">
+            <div>
+                <h1 class="titulo-index">El Calden Casa de Campo</h1>
             </div>
-            <div class="redes">
-                <a href="https://www.facebook.com/people/El-Caldén/100054484629009/">
-                    <img width="60" src="../imagenes/fb.png" alt="">
-                </a>
+            <h2>Dejanos tu consulta debajo</h2>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Nombre y Apellido</span>
+                <input type="text" class="form-control" placeholder="Nombre-Apellido" aria-label="Nombre-Apellido"
+                    aria-describedby="basic-addon1">
             </div>
-            <p class="redes">Sitio desarrollado por<a href=""> Nicolas Hintz</a></p>
-        </div>
-        
-    </footer>
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="e-mail" aria-label="e-mail"
+                    aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">@example.com</span>
+            </div>
+
+            <div class="input-group">
+                <span class="input-group-text">Mensaje</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+        </section>
+        <section>
+            <h3>Como llegar</h3>
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.9716215341073!2d-57.68690188479662!3d-33.60604078072968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a4f7351fa85219%3A0xc707e811cdf0d33a!2sEl%20Cald%C3%A9n!5e0!3m2!1ses-419!2suy!4v1636152854764!5m2!1ses-419!2suy"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <footer class="border-solid">
+            <div class="info-footer">
+                <p>Informacion de contacto</p>
+                <p>Tel: 098 294 000</p>
+                <p>Ruta 2 km 226.500 Ciudad de Mercedes, Uruguay</p>
+            </div>
+            <div class="espacio-redes">
+                <div class="redes">
+                    <a href="https://www.instagram.com/elcaldenuy/">
+                        <img width="60" src="../imagenes/ig.png" alt="">
+                    </a>
+                </div>
+                <div class="redes">
+                    <a href="https://www.facebook.com/people/El-Caldén/100054484629009/">
+                        <img width="60" src="../imagenes/fb.png" alt="">
+                    </a>
+                </div>
+                <p class="redes">Sitio desarrollado por<a href=""> Nicolas Hintz</a></p>
+            </div>
+
+        </footer>
     </div>
+    <!--Link a JavaSCript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

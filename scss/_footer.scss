@@ -1,0 +1,23 @@
+.info-footer{
+  border: solid 2px;
+  align-self: center;
+  justify-self: start;
+  margin-left: 5px;
+  color: rgb(192, 108, 29);
+    .espacio-redes{
+    margin-top: 0;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-gap: 2px;
+    text-align: center;
+    font-style:italic;
+    font-weight: bold;
+  }
+      .border-solid{
+        border: solid 2px;
+        bottom: 0;
+      }
+
+
+}

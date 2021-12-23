@@ -17,9 +17,5 @@
   "bugs": {
     "url": "https://github.com/NicoHintz/el-calden/issues"
   },
-  "homepage": "https://github.com/NicoHintz/el-calden#readme",
-  "dependencies": {
-    "node-sass": "^7.0.0",
-    "nodemon": "^2.0.15"
-  }
+  "homepage": "https://github.com/NicoHintz/el-calden#readme"
 }

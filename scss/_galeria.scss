@@ -1,0 +1,34 @@
+
+/* SASS galeria */
+
+.grid-container-dos{
+  height: 1000px;
+  padding: 50px;
+  background-color: rgb(221, 220, 255);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 450px 400px 25px;
+  grid-gap: 100px 100px;
+
+}
+
+.grid-container-dos{
+  & :hover{
+    transform: scale(1.05);
+  transition: all 1s;
+
+  }
+  
+}
+
+.grid-container-dos div{
+  height: 400px;
+  width: 550px;
+
+  .animacion{
+    animation-name: expandir;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  
+  }
