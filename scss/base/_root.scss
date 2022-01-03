@@ -1,4 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .header{
+  border: solid 2px;  
   height: 150px;
   position: sticky;
   top: 0;

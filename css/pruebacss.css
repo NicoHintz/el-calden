@@ -1,9 +1,15 @@
 /* SASS index */
 .container {
+  background-color: #1a1b1b;
   display: flex;
   justify-content: space-between; }
 
+* {
+  margin: 0;
+  padding: 0; }
+
 .header {
+  border: solid 2px;
   height: 150px;
   position: sticky;
   top: 0;
