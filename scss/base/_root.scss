@@ -4,6 +4,7 @@
 }
 
 .header{
+  
   border: solid 2px;  
   height: 150px;
   position: sticky;
@@ -18,26 +19,27 @@
     font-size: 30px;
     background-color: rgba(196, 192, 186, 0.521);
   }
+    
   
-
+  
 }
+
 
 nav{
 
   list-style-type: none;
-  font-size: 13px;
-
+  font-size: 15px;
+  
   a{
     text-decoration: none;
     color: rgb(66, 67, 70);
-
-    & :hover{
-      transform: scale(1.3);
-      transition: all 0.5s;
     }
+  
 
-  }
+}
 
+.titulo-index{
+  text-align:center;
 }
 
 h2{
