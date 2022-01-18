@@ -1,32 +1,30 @@
 /* SASS index */
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Mochiy Pop One", sans-serif; }
 
 .header {
-  border: solid 2px;
+  background-color: #bccebe;
+  border: solid 0px;
   height: 150px;
   position: sticky;
   top: 0;
-  width: 99.8%;
-  background-color: rgba(196, 192, 186, 0.521); }
-  .header .titulo-index {
-    display: flex;
-    justify-content: center;
-    color: #424346;
-    font-family: 'Mochiy Pop One', sans-serif;
-    font-size: 30px;
-    background-color: rgba(196, 192, 186, 0.521); }
+  width: 99.8%; }
+
+.titulo-index {
+  display: flex;
+  justify-content: center;
+  color: #424346;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 30px;
+  background-color: #bccebe; }
 
 nav {
   list-style-type: none;
   font-size: 15px; }
   nav a {
-    text-decoration: none;
-    color: #424346; }
-
-.titulo-index {
-  text-align: center; }
+    text-decoration: none; }
 
 h2 {
   color: antiquewhite; }
@@ -51,23 +49,18 @@ h2 {
 .actividades {
   grid-area: actividades; }
 
-.info-footer {
-  border: solid 2px;
-  align-self: center;
-  justify-self: start;
-  margin-left: 5px;
-  color: #c06c1d; }
-  .info-footer .espacio-redes {
-    background-color: aqua;
-    border: solid 3px;
-    margin-top: 0;
-    display: grid;
-    justify-self: center;
+.container-footer {
+  background-image: url(../imagenes/footer1.jpg);
+  background-size: cover; }
+  .container-footer .column {
+    border: solid 0px;
     align-self: center;
-    grid-gap: 2px;
-    text-align: center;
-    font-style: italic;
-    font-weight: bold; }
-  .info-footer .border-solid {
-    border: solid 2px;
-    bottom: 0; }
+    justify-self: start;
+    margin-left: 5px;
+    color: #c06c1d; }
+    .container-footer .column .redes {
+      border: solid 0px;
+      margin-top: 0;
+      text-align: center;
+      font-style: italic;
+      font-weight: bold; }

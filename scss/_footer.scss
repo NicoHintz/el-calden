@@ -1,23 +1,19 @@
-.info-footer{
-  border: solid 2px;
-  align-self: center;
-  justify-self: start;
-  margin-left: 5px;
-  color: rgb(192, 108, 29);
-    .espacio-redes{
-    background-color: aqua;
-    border: solid 3px;
-    margin-top: 0;
-    display: grid;
-    justify-self: center;
+.container-footer {
+    background-image:url(../imagenes/footer1.jpg);
+    background-size:cover;
+  .column {
+    border: solid 0px;
     align-self: center;
-    grid-gap: 2px;
-    text-align: center;
-    font-style:italic;
-    font-weight: bold;
+    justify-self: start;
+    margin-left: 5px;
+    color: rgb(192, 108, 29);
+      .redes {
+      border: solid 0px;
+      margin-top: 0;
+      text-align: center;
+      font-style: italic;
+      font-weight: bold;
+    }
+    
   }
-      .border-solid{
-        border: solid 2px;
-        bottom: 0;
-      }
 }
