@@ -236,7 +236,7 @@ h1{
   width: 550px;
   /*border: solid 1px rgb(28, 28, 29)*/
   
-}
+
 
 
 /*Aplicando media queries para 780px*
@@ -298,11 +298,9 @@ h1{
     grid-template-columns:20% 60% 20%;
     /*flex-direction: column;
     align-items: center;
-    justify-content: center;*/
-    background-image:url(../imagenes/logo.png);
-    background-size: cover;
-    background-position: center;
+    justify-content: center;}*/
     
-  }
+    
+  
   
   

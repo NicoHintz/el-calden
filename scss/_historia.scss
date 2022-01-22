@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor-tres{
+  background-color: rgb(188, 206, 190);
+  padding-top: 0;
+  .texto-dos{
+    margin-left: 50px;
+    text-align: center;
+    .lista-historia{
+      justify-content: center;
+      margin-right: 50px;
+      text-decoration: none;
+      list-style: none;
+      color: rgb(205, 50, 197);
+      border: solid 2px;
+      background-color: rgb(53, 54, 50);
+      ul li{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
+      }
+    }
+  }
+

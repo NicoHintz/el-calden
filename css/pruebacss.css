@@ -1,62 +1,65 @@
 /* SASS index */
 * {
   margin: 0;
-  padding: 0;
-  font-family: "Mochiy Pop One", sans-serif; }
+  padding: 0; }
 
 .header {
+  z-index: 1;
   background-color: #bccebe;
   border: solid 0px;
   height: 150px;
   position: sticky;
   top: 0;
-  width: 99.8%; }
+  width: 100%; }
 
 .titulo-index {
+  width: 100%;
   display: flex;
   justify-content: center;
   color: #424346;
   font-family: "Mochiy Pop One", sans-serif;
-  font-size: 30px;
   background-color: #bccebe; }
 
-nav {
+.nav-link {
   list-style-type: none;
-  font-size: 15px; }
-  nav a {
-    text-decoration: none; }
-
-h2 {
-  color: antiquewhite; }
-  h2 p {
-    color: bisque;
-    font-size: 8px; }
+  font-size: 15px;
+  text-decoration: none; }
+  .nav-link:hover {
+    transform: scale(1.2);
+    transition: all 1s; }
 
 /* SASS servicios */
+.clearfix {
+  background-color: #eff7f0; }
+  .clearfix .parrafo {
+    margin-top: 5px;
+    margin-left: 5px;
+    text-decoration: bold; }
+
 .servicios {
-  border: solid 0px #3a3a3b;
-  height: 600px;
-  font-family: 'Mochiy Pop One', sans-serif;
+  background-color: #bccebe;
+  height: 500px;
   font-size: 12px;
-  color: #ad9292;
   display: grid;
+  grid-gap: 20px;
   grid-template-areas: "comidas actividades actividades" "comidas actividades actividades";
   grid-template-rows: 1fr 1fr; }
 
 .comidas {
+  margin-left: 10px;
   grid-area: comidas; }
 
 .actividades {
   grid-area: actividades; }
 
 .container-footer {
+  width: 100%;
   background-image: url(../imagenes/footer1.jpg);
   background-size: cover; }
   .container-footer .column {
     border: solid 0px;
     align-self: center;
     justify-self: start;
-    margin-left: 5px;
     color: #c06c1d; }
     .container-footer .column .redes {
       border: solid 0px;
@@ -64,3 +67,32 @@ h2 {
       text-align: center;
       font-style: italic;
       font-weight: bold; }
+
+.mapa {
+  height: 500px;
+  border: solid 5px;
+  background-color: blue;
+  width: 100%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.contenedor-tres {
+  background-color: #bccebe;
+  padding-top: 0; }
+  .contenedor-tres .texto-dos {
+    margin-left: 50px;
+    text-align: center; }
+    .contenedor-tres .texto-dos .lista-historia {
+      justify-content: center;
+      margin-right: 50px;
+      text-decoration: none;
+      list-style: none;
+      color: #cd32c5;
+      border: solid 2px;
+      background-color: #353632; }
+      .contenedor-tres .texto-dos .lista-historia ul li {
+        justify-content: center;
+        text-align: center;
+        align-items: center; }
