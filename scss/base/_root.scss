@@ -4,7 +4,7 @@
 }
 
 .header {
-  z-index: 1;
+  z-index: 3;
   background-color: rgb(188, 206, 190);
   border: solid 0px;
   height: 150px;
@@ -23,6 +23,7 @@
 }
 
 .titulo-index {
+  margin-bottom: 0;
   width: 100%;
   display: flex;
   justify-content: center;

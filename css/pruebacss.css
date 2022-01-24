@@ -4,7 +4,7 @@
   padding: 0; }
 
 .header {
-  z-index: 1;
+  z-index: 3;
   background-color: #bccebe;
   border: solid 0px;
   height: 150px;
@@ -20,6 +20,7 @@
       transition: all 1s; }
 
 .titulo-index {
+  margin-bottom: 0;
   width: 100%;
   display: flex;
   justify-content: center;
