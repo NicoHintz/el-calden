@@ -11,6 +11,13 @@
   position: sticky;
   top: 0;
   width: 100%; }
+  .header .nav-link {
+    list-style-type: none;
+    font-size: 15px;
+    text-decoration: none; }
+    .header .nav-link:hover {
+      transform: scale(1.2);
+      transition: all 1s; }
 
 .titulo-index {
   width: 100%;
@@ -19,14 +26,6 @@
   color: #424346;
   font-family: "Mochiy Pop One", sans-serif;
   background-color: #bccebe; }
-
-.nav-link {
-  list-style-type: none;
-  font-size: 15px;
-  text-decoration: none; }
-  .nav-link:hover {
-    transform: scale(1.2);
-    transition: all 1s; }
 
 /* SASS servicios */
 .clearfix {
@@ -92,3 +91,30 @@
       color: #cd32c5;
       border: solid 2px;
       background-color: #353632; }
+
+@media (max-width: 806px) {
+  .clearfix {
+    display: none; } }
+
+@media (max-width: 1080px) {
+  .servicios .servicios {
+    background-color: #bccebe;
+    height: 700px;
+    font-size: 10px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas: "comidas actividades actividades" "comidas actividades actividades";
+    grid-template-rows: 1fr 1fr; }
+  .servicios .comidas {
+    margin-left: 10px;
+    grid-area: comidas; }
+    .servicios .comidas h2 {
+      font-size: 12px; }
+    .servicios .comidas .img {
+      width: 100px; }
+  .servicios .actividades {
+    grid-area: actividades; }
+    .servicios .actividades h2 {
+      font-size: 12px; }
+    .servicios .actividades .img-dos {
+      width: 150px; } }
