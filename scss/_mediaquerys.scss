@@ -22,10 +22,11 @@
     }
     
     .comidas{
+      margin-top: 20px;
       margin-left: 10px;
       grid-area: comidas;
       h2{
-        font-size: 12px;
+        font-size: 14px;
         
       }
       .img{
@@ -35,9 +36,10 @@
     }
     
     .actividades{
+      margin-top: 20px;
       grid-area: actividades;
       h2{
-        font-size: 12px;
+        font-size: 14px;
       }
       .img-dos{
         width: 150px;
@@ -45,3 +47,4 @@
     }
   }
 }
+

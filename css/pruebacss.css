@@ -11,6 +11,8 @@
   position: sticky;
   top: 0;
   width: 100%; }
+  .header .navbar-bg-green {
+    background-color: #bccebe; }
   .header .nav-link {
     list-style-type: none;
     font-size: 15px;
@@ -21,6 +23,7 @@
 
 .titulo-index {
   margin-bottom: 0;
+  padding-bottom: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -38,37 +41,24 @@
 
 .servicios {
   background-color: #bccebe;
-  height: 500px;
   font-size: 12px;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-areas: "comidas actividades actividades" "comidas actividades actividades";
-  grid-template-rows: 1fr 1fr; }
-
-.comidas {
-  margin-left: 10px;
-  grid-area: comidas; }
-
-.actividades {
-  grid-area: actividades; }
+  padding: 20px 0; }
 
 .container-footer {
   width: 100%;
   background-image: url(../imagenes/footer1.jpg);
-  background-size: cover; }
-  .container-footer .column {
-    border: solid 0px;
-    align-self: center;
-    justify-self: start;
-    color: white; }
-    .container-footer .column .redes {
-      border: solid 0px;
-      margin-top: 0;
-      text-align: center;
-      font-style: italic;
-      font-weight: bold; }
+  background-size: cover;
+  color: white; }
+  .container-footer .redes a {
+    text-decoration: none; }
+
+.formulario {
+  margin-top: 50px;
+  width: 80%;
+  margin-left: 10%; }
 
 .mapa {
+  margin-top: 20px;
   height: 500px;
   border: solid 5px;
   background-color: blue;
@@ -79,7 +69,8 @@
   padding: 0; }
 
 .contenedor-tres {
-  background-color: #bccebe;
+  margin-top: 0px;
+  background-color: #ecf3ed;
   padding-top: 0; }
   .contenedor-tres .texto-dos {
     margin-left: 50px;
@@ -92,6 +83,8 @@
       color: #cd32c5;
       border: solid 2px;
       background-color: #353632; }
+      .contenedor-tres .texto-dos .lista-historia .video {
+        margin-top: 40px; }
 
 @media (max-width: 806px) {
   .clearfix {
@@ -107,15 +100,17 @@
     grid-template-areas: "comidas actividades actividades" "comidas actividades actividades";
     grid-template-rows: 1fr 1fr; }
   .servicios .comidas {
+    margin-top: 20px;
     margin-left: 10px;
     grid-area: comidas; }
     .servicios .comidas h2 {
-      font-size: 12px; }
+      font-size: 14px; }
     .servicios .comidas .img {
       width: 100px; }
   .servicios .actividades {
+    margin-top: 20px;
     grid-area: actividades; }
     .servicios .actividades h2 {
-      font-size: 12px; }
+      font-size: 14px; }
     .servicios .actividades .img-dos {
       width: 150px; } }

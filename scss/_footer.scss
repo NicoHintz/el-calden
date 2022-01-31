@@ -1,20 +1,12 @@
 .container-footer {
-    width: 100%;
-    background-image:url(../imagenes/footer1.jpg);
-    background-size:cover;
-  .column {
-    border: solid 0px;
-    align-self: center;
-    justify-self: start;
-    color: white;
-      .redes {
-      border: solid 0px;
-      margin-top: 0;
-      text-align: center;
-      font-style: italic;
-      font-weight: bold;
-      
-    }
+  width: 100%;
+  background-image: url(../imagenes/footer1.jpg);
+  background-size: cover;
+  color: white;
+  .redes {
     
+    a {
+      text-decoration: none;
+    }
   }
 }

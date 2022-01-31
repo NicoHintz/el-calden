@@ -4,7 +4,8 @@
 }
 
 .contenedor-tres{
-  background-color: rgb(188, 206, 190);
+  margin-top: 0px;
+  background-color: rgb(236, 243, 237);
   padding-top: 0;
   .texto-dos{
     margin-left: 50px;
@@ -17,6 +18,9 @@
       color: rgb(205, 50, 197);
       border: solid 2px;
       background-color: rgb(53, 54, 50);
+      .video{
+        margin-top: 40px;
+      }
       
       }
     }
